@@ -13,7 +13,7 @@
   background-color: grey;
   margin: 20px 0;
 }
-.sidebar ul li {
+/*.sidebar ul li {
   font-style: italic;
   font-size: 14px;
   color: #fff;
@@ -29,4 +29,29 @@ ul li {
   color: red;
   font-size: 12px;
   margin: 3px 0;
+}*/
+snowmobile{
+  /*background: url(snowmobile.jpg);*/
+  /*height: 300px;
+  width: 400px;*/
+}
+h1 {
+  background: url(divider.jpg);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+/*.rental img {
+  height: 300px;
+  width: 400px;
+}*/
+.crop {
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+}
+.crop img {
+  /*height: auto;*/
+  /*width: 400px;*/
+  height: 300px;
+  width: auto;
 }
