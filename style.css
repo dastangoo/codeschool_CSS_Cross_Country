@@ -46,3 +46,43 @@ img {
 #content .featured {
   color: #777;
 }
+
+/*.downhill {
+  border: 5px solid #fff;
+  padding-left: 10px;
+  padding-right: 5px;
+  width: 100px;
+}*/
+.downhill {
+  border: 1px solid #fff;
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 310px;
+  background: red;
+  height: 200px;
+}
+
+sup {
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+  position: relative;
+  top: -0.5em;
+}
+
+article {
+  position: relative;
+}
+h3 {
+  position: absolute;
+  top:10px;
+  right: 10px;
+}
+/*.ski {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}*/
+.ski, .sled {
+  z-index: 1;
+}
