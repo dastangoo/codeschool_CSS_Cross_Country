@@ -1,37 +1,41 @@
-.logo {
-  background: url(logo.png);
-  display: block;
-  height: 100px;
-  width: 200px;
-  text-indent: -9999px;
+li {
+  border-bottom: 1px solid #aaa;
 }
-
-/*.logo:hover, .logo:focus {
-  background: url(hover.jpg);
+/*.last {
+  border-bottom: 0;
+}*/
+li:last-child {
+  border-bottom: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+/*.even {
+  background: #442;
 }*/
 
-.logo:hover, .logo:focus {
-  background-position: 0 -100px;
+/*li:nth-child(even) {
+  background: #444245;
+}*/
+/*li:nth-child(3n+1) {
+  background: #444245;
+}*/
+li:nth-child(3n+1) {
+  background: #444245;
 }
 
-li {
-  float: left;
-  margin-right: 10px;
+article p:last-child:after {
+  content: '\2744';
 }
 
-.twitter, .github {
-  background: url(social.png);
+blockquote::before {
+  background: url(quote.png);
   display: block;
-  height: 100px;
-  width: 100px;
-  text-indent: -9999px;
-}
-.github {
-  background-position: -100px 0;
-}
-.twitter:hover, .twitter.focus {
-  background-position: 0 -100px;
-}
-.github:hover, .github: focus {
-  background-position: -100px -100px;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
 }
