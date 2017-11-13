@@ -1,0 +1,41 @@
+/*h1 { */
+  /*color: #98c7d4;*/
+  /*color: #aba4ac;*/
+  /*margin-bottom: 10px;*/
+/*}*/
+.intro {
+  /*color: #aba4ac;*/
+  /*margin-bottom: 10px;  */
+  color: #444245;
+}
+.intro {
+  margin-bottom: 5px;
+  color: #dddddd;
+  width: 900px;
+}
+/*#header {
+  color: #aba4ac;
+  margin-bottom: 10px;  
+}*/
+/*h1#header {
+  color: #aba4ac;
+  margin-bottom: 10px;  
+}*/
+
+/*img {
+  width: 400px;
+  float: left;
+}*/
+
+.ski {
+  float: right;
+  width: 400px;
+}
+.sled {
+  float: left;
+  /*float: right;*/
+  width: 400px;
+}
+article {
+  width: 700px;
+}
