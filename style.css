@@ -1,57 +1,37 @@
-.header {
-  height: 200px;
-  background-color: blue;
-  margin: 20px 0;
+.logo {
+  background: url(logo.png);
+  display: block;
+  height: 100px;
+  width: 200px;
+  text-indent: -9999px;
 }
-.feature {
-  height: 400px;
-  background-color: green;
-  margin: 20px 0 40px 0;
-}
-.body {
-  height: 300px;
-  background-color: grey;
-  margin: 20px 0;
-}
-/*.sidebar ul li {
-  font-style: italic;
-  font-size: 14px;
-  color: #fff;
-  margin: 5px 0;
-}
-.featured li {
-  font-style: italic;
-  font-size: 14px;
-  color: #ccc;
-  margin: 5px 0;    
-}
-ul li {
-  color: red;
-  font-size: 12px;
-  margin: 3px 0;
+
+/*.logo:hover, .logo:focus {
+  background: url(hover.jpg);
 }*/
-snowmobile{
-  /*background: url(snowmobile.jpg);*/
-  /*height: 300px;
-  width: 400px;*/
+
+.logo:hover, .logo:focus {
+  background-position: 0 -100px;
 }
-h1 {
-  background: url(divider.jpg);
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+
+li {
+  float: left;
+  margin-right: 10px;
 }
-/*.rental img {
-  height: 300px;
-  width: 400px;
-}*/
-.crop {
-  height: 300px;
-  width: 400px;
-  overflow: hidden;
+
+.twitter, .github {
+  background: url(social.png);
+  display: block;
+  height: 100px;
+  width: 100px;
+  text-indent: -9999px;
 }
-.crop img {
-  /*height: auto;*/
-  /*width: 400px;*/
-  height: 300px;
-  width: auto;
+.github {
+  background-position: -100px 0;
+}
+.twitter:hover, .twitter.focus {
+  background-position: 0 -100px;
+}
+.github:hover, .github: focus {
+  background-position: -100px -100px;
 }
