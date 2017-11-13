@@ -1,88 +1,83 @@
-img {
-  float: left;
-  width: 400px;
+/*h1 {
+  font-family: Arial, sans-serif;
+s}
+
+p {
+  font-family: Arial, sans-serif;
 }
 
-/* First approach to clearning float */
-/*.intro {
-  clear: both;
+.sale {
+  font-family: Arial, sans-serif;
 }*/
 
-/* Second approach to clearning float */
-/*.clear {
-  clear: both;
+/*body {
+  font-family: Arial, sans-serif;
 }*/
 
-/*/ Third approach to clearning float */
-/*.group:before, 
+.container {
+  font-family: Arial, sans-serif;
+}
+
+/*p {
+  font-size: 12px;
+}
+.ski_lift {
+  font-size: 12px;
+}
+h6 {
+  font-size: 12px;
+}*/
+p, .ski_lift, h6 {
+  font-size: 12px;
+}
+
+/*.submit {
+  border: 1px solid #000;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.next_button {
+  border: 1px solid #000;
+  cursor: pointer;
+  text-transform: uppercase;  
+}*/
+.button {
+  border: 1px solid #000;
+  cursor: pointer;
+  text-transform: uppercase;    
+}
+.submit {
+  background: #555;
+}
+.ski_poles {
+  /*margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  margin-left: 20px;*/
+  margin: 15 10 0 20;
+  font: 16px/18px bold italic sans-serif;
+  background: #000 url(image.jpg) no-repeat center top;
+  list-style: disc inside non;
+  /*margin: 0 10px 0 10px;*/
+  /*margin: 0 10px 0;*/
+  margin: 0 10px;
+  padding: 0 10px;
+  
+  border: 30px solid #ccc;
+}
+
+.sale {
+  /*float: left;
+  width: 100%;*/
+  display: block;
+  padding: 0 10px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.group: before, .group: after {
+  display: block;
+}
 .group:after {
-  content: "";
-  display: table;
-}
-
-.group:after {
   clear: both;
-}
-
-.group {
-  zoom: 1; /* IE 6&7 */
-/*}*/
-
-/*.featured {
-  color: #aba4ac; 
-}
-.featured p {
-  background: #000;
-  color: #fff;
-}*/
-#content p{
-  color: #000;
-  background: #ccc;
-}
-/*.featured {
-  color: #777 !important;
-  width: 400px;
-}*/
-#content .featured {
-  color: #777;
-}
-
-/*.downhill {
-  border: 5px solid #fff;
-  padding-left: 10px;
-  padding-right: 5px;
-  width: 100px;
-}*/
-.downhill {
-  border: 1px solid #fff;
-  padding-left: 14px;
-  padding-right: 14px;
-  width: 310px;
-  background: red;
-  height: 200px;
-}
-
-sup {
-  font-size: 75%;
-  line-height: 0;
-  vertical-align: baseline;
-  position: relative;
-  top: -0.5em;
-}
-
-article {
-  position: relative;
-}
-h3 {
-  position: absolute;
-  top:10px;
-  right: 10px;
-}
-/*.ski {
-  position: fixed;
-  right: 10px;
-  top: 10px;
-}*/
-.ski, .sled {
-  z-index: 1;
 }
